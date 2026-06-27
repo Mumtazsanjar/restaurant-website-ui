@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="La Bella Cucina - Authentic Italian Fine Dining Restaurant. Experience the finest Italian cuisine in an elegant atmosphere." />
+  <title>La Bella Cucina | Italian Fine Dining</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="La Bella Cucina home">
+        <span class="logo-icon"><i class="fas fa-utensils" aria-hidden="true"></i></span>
+        <span class="logo-text">La Bella <span class="accent">Cucina</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#specials" class="nav-link">Specials</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#reservation" class="nav-link btn-reserve">Reserve a Table</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="navLinks">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home" aria-label="Hero section">
+    <div class="hero-bg" style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80');" role="img" aria-label="Elegant restaurant interior"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline animate-fade-up">Welcome to La Bella Cucina</p>
+      <h1 class="hero-title animate-fade-up delay-1">
+        An Authentic<br /><em>Italian Experience</em>
+      </h1>
+      <p class="hero-subtitle animate-fade-up delay-2">
+        Handcrafted flavors, timeless recipes, and an unforgettable ambiance<br />in the heart of the city.
+      </p>
+      <div class="hero-cta animate-fade-up delay-3">
+        <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+        <a href="#reservation" class="btn btn-outline">Book a Table</a>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <i class="fas fa-chevron-down" aria-hidden="true"></i>
+    </a>
+  </section>
+
+  <!-- ========== STATS BAR ========== -->
+  <section class="stats-bar" aria-label="Restaurant statistics">
+    <div class="container">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="25">0</span><span class="stat-suffix">+</span>
+        <p class="stat-label">Years of Excellence</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="120">0</span><span class="stat-suffix">+</span>
+        <p class="stat-label">Signature Dishes</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="15000">0</span><span class="stat-suffix">+</span>
+        <p class="stat-label">Happy Guests</p>
+      </div>
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="18">0</span><span class="stat-suffix"></span>
+        <p class="stat-label">Culinary Awards</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about" aria-label="About us">
+    <div class="container">
+      <div class="about-image reveal-left">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80"
+             alt="Our head chef preparing an exquisite Italian dish in the kitchen"
+             loading="lazy" width="800" height="600" />
+        <div class="about-badge">
+          <span class="badge-year">EST.</span>
+          <span class="badge-num">1999</span>
+        </div>
+      </div>
+      <div class="about-content reveal-right">
+        <span class="section-tag">Our Story</span>
+        <h2 class="section-title">A Passion for Authentic Italian Cuisine</h2>
+        <p class="about-text">
+          Founded in the heart of the city, La Bella Cucina has been a sanctuary for lovers of true Italian gastronomy since 1999.
+          Every dish we serve is a tribute to the rich culinary heritage of Italy — from the sun-drenched coasts of Amalfi to the rolling hills of Tuscany.
+        </p>
+        <p class="about-text">
+          Our team of master chefs, trained in the finest Italian kitchens, blend traditional techniques with locally sourced, seasonal ingredients
+          to create an experience that delights all the senses.
+        </p>
+        <div class="about-features">
+          <div class="feature-item">
+            <i class="fas fa-seedling" aria-hidden="true"></i>
+            <span>Fresh, Local Ingredients</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-award" aria-hidden="true"></i>
+            <span>Award-Winning Chefs</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-wine-glass-alt" aria-hidden="true"></i>
+            <span>Curated Wine Selection</span>
+          </div>
+          <div class="feature-item">
+            <i class="fas fa-heart" aria-hidden="true"></i>
+            <span>Made with Passion</span>
+          </div>
+        </div>
+        <a href="#reservation" class="btn btn-primary">Reserve Your Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MENU SECTION ========== -->
+  <section class="menu section" id="menu" aria-label="Our menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Culinary Journey</span>
+        <h2 class="section-title">Our Menu</h2>
+        <p class="section-subtitle">Each dish is a story told through flavors — crafted with passion, served with love.</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="tab-btn active" data-tab="starters" role="tab" aria-selected="true" aria-controls="tab-starters">
+          <i class="fas fa-leaf" aria-hidden="true"></i> Starters
+        </button>
+        <button class="tab-btn" data-tab="mains" role="tab" aria-selected="false" aria-controls="tab-mains">
+          <i class="fas fa-drumstick-bite" aria-hidden="true"></i> Main Course
+        </button>
+        <button class="tab-btn" data-tab="desserts" role="tab" aria-selected="false" aria-controls="tab-desserts">
+          <i class="fas fa-ice-cream" aria-hidden="true"></i> Desserts
+        </button>
+        <button class="tab-btn" data-tab="drinks" role="tab" aria-selected="false" aria-controls="tab-drinks">
+          <i class="fas fa-wine-glass" aria-hidden="true"></i> Drinks
+        </button>
+      </div>
+
+      <!-- Starters Tab -->
+      <div class="tab-content active" id="tab-starters" role="tabpanel" aria-label="Starters menu">
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1572695157366-5e585ab2b69f?w=400&q=80"
+                   alt="Classic Bruschetta with fresh tomatoes and basil" loading="lazy" width="400" height="300" />
+              <span class="menu-badge">Chef's Pick</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Classic Bruschetta</h3>
+                <span class="menu-price">$12</span>
+              </div>
+              <p>Grilled sourdough topped with marinated heirloom tomatoes, fresh basil, and extra-virgin olive oil.</p>
+              <div class="menu-tags">
+                <span class="tag">Vegetarian</span><span class="tag">Gluten-aware</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&q=80"
+                   alt="Creamy Tuscan white bean soup" loading="lazy" width="400" height="300" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Tuscan Bean Soup</h3>
+                <span class="menu-price">$14</span>
+              </div>
+              <p>A hearty ribollita-style soup with cannellini beans, seasonal vegetables, rosemary, and toasted croutons.</p>
+              <div class="menu-tags">
+                <span class="tag">Vegan</span><span class="tag">Seasonal</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Mains Tab -->
+      <div class="tab-content" id="tab-mains" role="tabpanel" aria-label="Main course menu">
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&q=80"
+                   alt="Perfectly grilled ribeye steak with truffle sauce" loading="lazy" width="400" height="300" />
+              <span class="menu-badge">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Bistecca Fiorentina</h3>
+                <span class="menu-price">$58</span>
+              </div>
+              <p>Dry-aged Florentine T-bone steak, grilled over oak wood, served with rosemary potatoes and truffle butter.</p>
+              <div class="menu-tags">
+                <span class="tag">House Specialty</span><span class="tag">Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=400&q=80"
+                   alt="Handmade pasta carbonara with guanciale" loading="lazy" width="400" height="300" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Pasta alla Carbonara</h3>
+                <span class="menu-price">$28</span>
+              </div>
+              <p>Handmade rigatoni tossed with slow-rendered guanciale, Pecorino Romano, egg yolk, and black pepper.</p>
+              <div class="menu-tags">
+                <span class="tag">House Pasta</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=400&q=80"
+                   alt="Pan-seared Atlantic salmon with lemon caper sauce" loading="lazy" width="400" height="300" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Salmone al Forno</h3>
+                <span class="menu-price">$36</span>
+              </div>
+              <p>Oven-roasted Atlantic salmon fillet with lemon-caper beurre blanc, caramelized fennel, and asparagus.</p>
+              <div class="menu-tags">
+                <span class="tag">Gluten-Free</span><span class="tag">Pescatarian</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=400&q=80"
+                   alt="Creamy saffron risotto with parmesan" loading="lazy" width="400" height="300" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Risotto alla Milanese</h3>
+                <span class="menu-price">$30</span>
+              </div>
+              <p>Carnaroli rice slow-cooked with saffron, bone marrow, dry white wine, and aged Parmigiano Reggiano.</p>
+              <div class="menu-tags">
+                <span class="tag">Vegetarian</span><span class="tag">Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Desserts Tab -->
+      <div class="tab-content" id="tab-desserts" role="tabpanel" aria-label="Desserts menu">
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&q=80"
+                   alt="Classic Italian tiramisu with espresso and mascarpone" loading="lazy" width="400" height="300" />
+              <span class="menu-badge">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Tiramisù Classico</h3>
+                <span class="menu-price">$14</span>
+              </div>
+              <p>House-made mascarpone cream, espresso-soaked ladyfingers, dark cocoa, and a hint of Marsala wine.</p>
+              <div class="menu-tags">
+                <span class="tag">Vegetarian</span><span class="tag">Contains Alcohol</span>
+              </div>
+            </div>
+          </article>
+          <article class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80"
+                   alt="New York style cheesecake with berry compote" loading="lazy" width="400" height="300" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-header">
+                <h3>Torta di Ricotta</h3>
+                <span class="menu-price">$12</span>
+              </div>
+              <p>Silky Italian ricotta cheesecake on an almond crust, topped with a warm wild berry compote.</p>
+              <div class="menu-tags">
+                <span class="tag">Vegetarian</span><span class="tag">Gluten-aware</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <!-- Drinks Tab -->
+      <div class="tab-content" id="tab-drinks" role="tabpanel" aria-label="Drinks menu">
+        <div class="drinks-list">
+          <div class="drinks-column reveal">
+            <h3 class="drinks-category"><i class="fas fa-wine-bottle" aria-hidden="true"></i> Wines</h3>
+            <div class="drink-item"><span>Barolo DOCG 2018</span><span>$85</span></div>
+            <div class="drink-item"><span>Amarone della Valpolicella</span><span>$95</span></div>
+            <div class="drink-item"><span>Brunello di Montalcino</span><span>$110</span></div>
+            <div class="drink-item"><span>Pinot Grigio delle Venezie</span><span>$48</span></div>
+            <div class="drink-item"><span>Prosecco DOC (glass)</span><span>$14</span></div>
+          </div>
+          <div class="drinks-column reveal">
+            <h3 class="drinks-category"><i class="fas fa-cocktail" aria-hidden="true"></i> Cocktails &amp; Spirits</h3>
+            <div class="drink-item"><span>Negroni Sbagliato</span><span>$18</span></div>
+            <div class="drink-item"><span>Aperol Spritz</span><span>$16</span></div>
+            <div class="drink-item"><span>Limoncello Sour</span><span>$17</span></div>
+            <div class="drink-item"><span>Espresso Martini</span><span>$19</span></div>
+          </div>
+          <div class="drinks-column reveal">
+            <h3 class="drinks-category"><i class="fas fa-coffee" aria-hidden="true"></i> Coffee &amp; Non-Alcoholic</h3>
+            <div class="drink-item"><span>Double Espresso</span><span>$5</span></div>
+            <div class="drink-item"><span>Cappuccino</span><span>$6</span></div>
+            <div class="drink-item"><span>San Pellegrino (500ml)</span><span>$5</span></div>
+            <div class="drink-item"><span>Fresh-Pressed Lemonade</span><span>$8</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== SPECIALS SECTION ========== -->
+  <section class="specials section" id="specials" aria-label="Chef's specials">
+    <div class="specials-overlay"></div>
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Limited Time</span>
+        <h2 class="section-title">Chef's Specials</h2>
+        <p class="section-subtitle">Our Executive Chef Marco Bellini presents this season's most inspired creations.</p>
+      </div>
+      <div class="specials-grid">
+        <div class="special-card reveal">
+          <div class="special-icon"><i class="fas fa-fire" aria-hidden="true"></i></div>
+          <h3>Weekend Truffle Menu</h3>
+          <p>A 5-course journey celebrating black truffle season — available Friday to Sunday. Includes wine pairing.</p>
+          <span class="special-price">$145 per person</span>
+          <a href="#reservation" class="btn btn-outline-sm">Book Now</a>
+        </div>
+        <div class="special-card special-card-featured reveal">
+          <div class="special-icon"><i class="fas fa-star" aria-hidden="true"></i></div>
+          <span class="featured-label">Featured</span>
+          <h3>Tasting Menu "Viaggio"</h3>
+          <p>Our signature 7-course tasting menu — a journey through Italy's culinary regions, with optional sommelier wine pairing.</p>
+          <span class="special-price">$195 per person</span>
+          <a href="#reservation" class="btn btn-primary">Book Now</a>
+        </div>
+        <div class="special-card reveal">
+          <div class="special-icon"><i class="fas fa-sun" aria-hidden="true"></i></div>
+          <h3>Sunday Brunch</h3>
+          <p>A relaxed Italian brunch experience every Sunday 11am–3pm, with unlimited Prosecco and seasonal dishes.</p>
+          <span class="special-price">$65 per person</span>
+          <a href="#reservation" class="btn btn-outline-sm">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY SECTION ========== -->
+  <section class="gallery section" id="gallery" aria-label="Photo gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Visual Stories</span>
+        <h2 class="section-title">Gallery</h2>
+        <p class="section-subtitle">A glimpse into the world of La Bella Cucina.</p>
+      </div>
+      <div class="gallery-grid" role="list">
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80" alt="Elegant restaurant dining room with warm lighting" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80" alt="Chef plating an exquisite dish in the kitchen" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80" alt="Beautifully arranged food spread on a table" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80" alt="Romantic candlelit restaurant ambiance" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80" alt="Artfully presented pasta dish with garnish" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+        <div class="gallery-item reveal" data-src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=1200&q=80" role="listitem">
+          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=600&q=80" alt="Rustic Italian breakfast with coffee and pastries" loading="lazy" width="600" height="400" />
+          <div class="gallery-overlay"><i class="fas fa-expand" aria-hidden="true"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image lightbox" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox"><i class="fas fa-times" aria-hidden="true"></i></button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image"><i class="fas fa-chevron-left" aria-hidden="true"></i></button>
+    <div class="lightbox-content">
+      <img src="" alt="" id="lightboxImg" />
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>
+  </div>
+
+  <!-- ========== TESTIMONIALS SECTION ========== -->
+  <section class="testimonials section" id="testimonials" aria-label="Customer testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What Our Guests Say</span>
+        <h2 class="section-title">Testimonials</h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i>
+          </div>
+          <blockquote class="testimonial-text">
+            "An extraordinary dining experience. The Bistecca Fiorentina was the finest steak I have ever had —
+            the flavors were absolutely transcendent. We will be back for every anniversary."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">S</div>
+            <div class="author-info">
+              <strong>Sophia Marchetti</strong>
+              <span>Food Critic, La Repubblica</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i>
+          </div>
+          <blockquote class="testimonial-text">
+            "From the moment we walked in, everything was perfect. The ambiance, the service, and the Tiramisù —
+            I am still dreaming about it. This is what Italian dining should feel like."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">J</div>
+            <div class="author-info">
+              <strong>James & Emily Harrington</strong>
+              <span>Regular Guests since 2018</span>
+            </div>
+          </div>
+        </article>
+        <article class="testimonial-card reveal">
+          <div class="testimonial-stars" aria-label="5 out of 5 stars">
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i>
+            <i class="fas fa-star" aria-hidden="true"></i>
+          </div>
+          <blockquote class="testimonial-text">
+            "La Bella Cucina is in a league of its own. The Viaggio tasting menu was a seven-course masterpiece.
+            Chef Marco's passion is visible in every single plate. Truly world-class."
+          </blockquote>
+          <div class="testimonial-author">
+            <div class="author-avatar" aria-hidden="true">A</div>
+            <div class="author-info">
+              <strong>Antoine Dubois</strong>
+              <span>Travel &amp; Lifestyle Blogger</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESERVATION SECTION ========== -->
+  <section class="reservation section" id="reservation" aria-label="Table reservation">
+    <div class="container">
+      <div class="reservation-wrapper">
+        <div class="reservation-info reveal-left">
+          <span class="section-tag">Join Us</span>
+          <h2 class="section-title">Reserve a Table</h2>
+          <p>Whether it is an intimate dinner for two or a grand celebration, we are ready to create an unforgettable experience for you.</p>
+          <ul class="reservation-details">
+            <li><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+12125551234">+1 (212) 555-1234</a></li>
+            <li><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:reservations@labellacucina.com">reservations@labellacucina.com</a></li>
+            <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 47 Via Bella, New York, NY 10012</li>
+          </ul>
+          <div class="opening-hours">
+            <h4><i class="fas fa-clock" aria-hidden="true"></i> Opening Hours</h4>
+            <div class="hours-row"><span>Monday – Thursday</span><span>12:00 – 22:30</span></div>
+            <div class="hours-row"><span>Friday – Saturday</span><span>12:00 – 23:30</span></div>
+            <div class="hours-row"><span>Sunday</span><span>11:00 – 22:00</span></div>
+          </div>
+        </div>
+
+        <form class="reservation-form reveal-right" id="reservationForm" novalidate aria-label="Reservation form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="firstName" name="firstName" placeholder="Marco" required autocomplete="given-name" />
+              <span class="form-error" id="firstNameError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="lastName" name="lastName" placeholder="Rossi" required autocomplete="family-name" />
+              <span class="form-error" id="lastNameError" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email <span aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" placeholder="marco@example.com" required autocomplete="email" />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 (212) 555-0000" autocomplete="tel" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Date <span aria-hidden="true">*</span></label>
+              <input type="date" id="date" name="date" required />
+              <span class="form-error" id="dateError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="time">Time <span aria-hidden="true">*</span></label>
+              <select id="time" name="time" required>
+                <option value="">Select a time</option>
+                <option value="12:00">12:00 PM</option>
+                <option value="12:30">12:30 PM</option>
+                <option value="13:00">1:00 PM</option>
+                <option value="13:30">1:30 PM</option>
+                <option value="18:00">6:00 PM</option>
+                <option value="18:30">6:30 PM</option>
+                <option value="19:00">7:00 PM</option>
+                <option value="19:30">7:30 PM</option>
+                <option value="20:00">8:00 PM</option>
+                <option value="20:30">8:30 PM</option>
+                <option value="21:00">9:00 PM</option>
+              </select>
+              <span class="form-error" id="timeError" role="alert"></span>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guests">Number of Guests <span aria-hidden="true">*</span></label>
+              <select id="guests" name="guests" required>
+                <option value="">Select guests</option>
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6 Guests</option>
+                <option value="7+">7+ Guests (call us)</option>
+              </select>
+              <span class="form-error" id="guestsError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="occasion">Special Occasion</label>
+              <select id="occasion" name="occasion">
+                <option value="">None</option>
+                <option value="birthday">Birthday</option>
+                <option value="anniversary">Anniversary</option>
+                <option value="business">Business Dinner</option>
+                <option value="proposal">Proposal</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="requests">Special Requests</label>
+            <textarea id="requests" name="requests" rows="3" placeholder="Allergies, dietary requirements, or any other notes..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-calendar-check" aria-hidden="true"></i> Confirm Reservation
+          </button>
+          <p class="form-note">We will confirm your reservation within 2 hours via email.</p>
+          <div class="form-success" id="formSuccess" hidden role="alert">
+            <i class="fas fa-check-circle" aria-hidden="true"></i>
+            <strong>Reservation received!</strong> We will confirm your booking by email shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <a href="#home" class="nav-logo footer-logo">
+              <span class="logo-icon"><i class="fas fa-utensils" aria-hidden="true"></i></span>
+              <span class="logo-text">La Bella <span class="accent">Cucina</span></span>
+            </a>
+            <p>Authentic Italian fine dining, crafted with tradition, passion, and the finest ingredients from Italy and beyond.</p>
+            <div class="social-links" aria-label="Social media links">
+              <a href="#" class="social-link" aria-label="Follow us on Instagram" rel="noopener noreferrer">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Follow us on Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Follow us on TripAdvisor" rel="noopener noreferrer">
+                <i class="fab fa-tripadvisor" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Follow us on Twitter/X" rel="noopener noreferrer">
+                <i class="fab fa-x-twitter" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <nav class="footer-col" aria-label="Quick links">
+            <h4 class="footer-heading">Quick Links</h4>
+            <ul role="list">
+              <li><a href="#about">Our Story</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#specials">Specials</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#reservation">Reservations</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+            </ul>
+          </nav>
+
+          <!-- Opening Hours -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Opening Hours</h4>
+            <div class="footer-hours">
+              <div class="hours-row"><span>Mon – Thu</span><span>12:00 – 22:30</span></div>
+              <div class="hours-row"><span>Fri – Sat</span><span>12:00 – 23:30</span></div>
+              <div class="hours-row"><span>Sunday</span><span>11:00 – 22:00</span></div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <address class="footer-col footer-contact">
+            <h4 class="footer-heading">Contact</h4>
+            <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> 47 Via Bella<br />New York, NY 10012</p>
+            <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+12125551234">+1 (212) 555-1234</a></p>
+            <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@labellacucina.com">info@labellacucina.com</a></p>
+          </address>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="currentYear"></span> La Bella Cucina. All rights reserved.</p>
+        <p>Designed with <i class="fas fa-heart" aria-hidden="true"></i> for great food lovers.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
